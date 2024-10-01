@@ -38,6 +38,7 @@
     obsidian
 
     postman
+    pritunl-client
 
     slack
     spotify

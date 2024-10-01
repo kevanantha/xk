@@ -25,7 +25,7 @@ let
   mekari = {
     name = "Kevin Anantha (kevan)";
     email = "kevin.anantha@mekari.com";
-    signingKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFQTDvspAGcXV+ebrdzHPlrw+Lrnf+TEVxbzAktZv9rs";
+    signingKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP4pS7BdpoqPfkCTd9sNLzFVUGTUSyMuvpHy4HFWQjiy";
   };
 
   efishery = {
