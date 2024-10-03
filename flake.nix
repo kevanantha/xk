@@ -28,15 +28,14 @@
 
     let
       darwin-system = import ./system/darwin.nix { inherit inputs username; };
-      username = "mekari";
-    in
+      username = "mekari"; in
     {
       formatter.aarch64-darwin = nixpkgs.legacyPackages.aarch64-darwin.nixfmt-rfc-style;
 
       darwinConfigurations = {
         aarch64 = darwin-system "aarch64-darwin";
         x86_64 = darwin-system "x86_64-darwin";
-        mekari-macbookpro = darwin-system "x86_64-darwin";
+        mekari = darwin-system "x86_64-darwin";
       };
     };
 }

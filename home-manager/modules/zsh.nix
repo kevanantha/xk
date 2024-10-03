@@ -48,7 +48,7 @@
       tks = "tmux kill-session";
       cat = "bat";
       top = "btm";
-      getnodeflake = "curl -LJO https://gist.githubusercontent.com/kevanantha/fb088a5f094108f547200455f3b95a46/raw/98cd243c8d26786a1827c3df0a3e2d0bf19e8fcf/flake.nix";
+      getnodeflake = "curl -LJO https://gist.githubusercontent.com/kevanantha/fb088a5f094108f547200455f3b95a46/raw/98cd243c8d26786a1827c3df0a3e2d0bf19e8fcf/flake.nix ";
       node-shell = "nix shell nixpkgs#nodejs nixpkgs#pnpm nixpkgs#yarn nixpkgs#bun";
     };
   };

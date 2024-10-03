@@ -65,13 +65,13 @@
 
       "figma"
 
-      "google-chat"
-
       "jordanbaird-ice" # menubar
 
       "marta"
 
       "orbstack" # for docker desktop
+
+      "pritunl"
 
       "raycast"
 
@@ -100,8 +100,8 @@
     # $ mas search <app name>
     #
     masApps = {
-      "Xcode" = 497799835;
-      "Session" = 1521432881;
+      # "Xcode" = 497799835;
+      # "Session" = 1521432881;
       # "Klack" = 2143728525; => install manually due to paid app
       # "hidden-bar" = 1452453066;
     };
@@ -293,6 +293,7 @@
         yabai -m rule --add app="^Raycast$" manage=off
         yabai -m rule --add app="^WhatsApp$" manage=off
         yabai -m rule --add app="^Marta$" manage=off
+        yabai -m rule --add app="^Pritunl$" manage=off
       '';
     };
   };

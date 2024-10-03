@@ -38,7 +38,6 @@
     obsidian
 
     postman
-    pritunl-client
 
     slack
     spotify
@@ -48,6 +47,8 @@
     telegram-desktop
     todoist
     tree
+
+    vscode
 
     xh # HTTPie-like
 

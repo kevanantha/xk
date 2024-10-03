@@ -199,7 +199,7 @@ in
         };
       }
       {
-        condition = "gitdir:~/w/";
+        condition = "gitdir:~/work/";
         contentSuffix = "gitconfig-efishery";
         contents = {
           user = efishery;
