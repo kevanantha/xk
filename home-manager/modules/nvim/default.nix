@@ -264,6 +264,9 @@
       which-key = {
         enable = true;
       };
+      web-devicons = {
+        enable = true;
+      };
     };
 
     keymaps = [

@@ -36,6 +36,7 @@
     ngrok
 
     obsidian
+    openssl
 
     postman
 
@@ -48,7 +49,7 @@
     todoist
     tree
 
-    vscode
+    # vscode
 
     xh # HTTPie-like
 

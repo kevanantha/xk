@@ -67,6 +67,8 @@
 
       "jordanbaird-ice" # menubar
 
+      "karabiner-elements"
+
       "marta"
 
       "orbstack" # for docker desktop
@@ -119,7 +121,7 @@
     };
 
     karabiner-elements = {
-      enable = true;
+      enable = false; # Installed via homebrew.
     };
 
     sketchybar = {
@@ -303,6 +305,7 @@
   '';
 
   system = {
+    stateVersion = 5;
     defaults = {
       dock = {
         autohide = true;
