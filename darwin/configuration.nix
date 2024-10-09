@@ -296,6 +296,7 @@
         yabai -m rule --add app="^WhatsApp$" manage=off
         yabai -m rule --add app="^Marta$" manage=off
         yabai -m rule --add app="^Pritunl$" manage=off
+        yabai -m rule --add app="^Pritunl Client$" manage=off
       '';
     };
   };
