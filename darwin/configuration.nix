@@ -47,7 +47,9 @@
       autoUpdate = true;
       cleanup = "zap";
     };
-    brews = [ ];
+    brews = [
+      "deno"
+    ];
     casks = [
       "1password"
 
@@ -65,6 +67,8 @@
 
       "figma"
 
+      "google-chrome"
+
       "jordanbaird-ice" # menubar
 
       "karabiner-elements"
@@ -81,6 +85,8 @@
       "steam"
 
       "todoist"
+
+      "visual-studio-code"
 
       "whatsapp"
 

@@ -1,9 +1,11 @@
 { pkgs, ... }:
 
 {
-  programs.tmux = {
+  programs.tmux = with pkgs; {
     enable = true;
+    shell = "\${zsh}/bin/zsh";
     escapeTime = 10;
+    baseIndex = 1;
     mouse = true;
     sensibleOnTop = true;
     extraConfig = ''

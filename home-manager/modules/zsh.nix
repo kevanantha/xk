@@ -3,6 +3,9 @@
 {
   programs.zsh = {
     enable = true;
+    initExtra = ''
+      'eval $(op signin)'
+    '';
     autosuggestion = {
       enable = true;
     };
@@ -38,8 +41,8 @@
     ];
     shellAliases = {
       c = "clear";
-      vv = "nvim"; # nixvim
-      v = "NVIM_APPNAME=lazy_vim nvim"; # lazy_vim
+      v = "nvim"; # nixvim
+      vv = "NVIM_APPNAME=lazy_vim nvim"; # lazy_vim
       nd = "nix develop";
       drc = "darwin-rebuild check --flake '.#aarch64'";
       drs = "darwin-rebuild switch --flake '.#aarch64'";

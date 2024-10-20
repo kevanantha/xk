@@ -18,6 +18,7 @@
       ];
     })
 
+    cargo
     commit-mono # font
     coreutils
 
@@ -72,6 +73,9 @@
     fzf = {
       enable = true;
       enableZshIntegration = true;
+      tmux = {
+        enableShellIntegration = true;
+      };
     };
     gh = {
       enable = true;
@@ -84,6 +88,9 @@
       enable = true;
     };
     home-manager = {
+      enable = true;
+    };
+    neovim = {
       enable = true;
     };
     ripgrep = {
@@ -110,7 +117,7 @@
     ./modules/bat.nix
     ./modules/eza.nix
     ./modules/git.nix
-    ./modules/nvim
+    # ./modules/nvim
     ./modules/starship.nix
     ./modules/ssh.nix
     ./modules/tmux.nix
